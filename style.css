@@ -36,13 +36,27 @@ body {
 }
 
 .text-overlay {
-    width: 60%;
     font-size: large;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     display: none;
+}
+.dribbleBtn {
+    background-color: #EA4C89;
+    color: white;
+    border: 2px solid #EA4C89;
+    border-radius: 100px;
+    height: 50px;
+    width: 100%;
+    font-size: smaller;
+}
+.dribbleBtn:hover {
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    border-style: dashed;
+    transition: .4s;
 }
 .project:hover .text-overlay {
     display: block;
